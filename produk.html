@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Heri Wibowo - IT Support dan Software Engineer</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Bootstrap Agency Template" name="keywords">
+        <meta content="Bootstrap Agency Template" name="description">
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+        
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/slick/slick.css" rel="stylesheet">
+        <link href="libs/slick/slick-theme.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <!-- Header Start -->
+            <div class="header">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-lg-2">
+                            <div class="brand">
+                                <a href="index.html">
+                                    <img src="img/logo.png" alt="Logo">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-10">
+                            <div class="topbar">
+                                <div class="topbar-col">
+                                    <a href="tel:089637880570"><i class="fa fa-phone-alt"></i>089637880570</a>
+                                </div>
+                                <div class="topbar-col">
+                                    <a href="mailto:softwareengineer@heriwibowo.id"><i class="fa fa-envelope"></i>softwareengineer@heriwibowo.id</a>
+                                </div>
+                                <div class="topbar-col">
+                                    <div class="topbar-social">
+                                        <a href=""><i class="fab fa-twitter"></i></a>
+                                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                                        <a href=""><i class="fab fa-youtube"></i></a>
+                                        <a href=""><i class="fab fa-instagram"></i></a>
+                                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="navbar navbar-expand-lg bg-light navbar-light">
+                                <a href="#" class="navbar-brand">MENU</a>
+                                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+
+                                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                                    <div class="navbar-nav ml-auto">
+                                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                                        <a href="about.html" class="nav-item nav-link">Tentang</a>
+                                        <a href="services.html" class="nav-item nav-link">Services</a>
+                                        <a href="portfolio.html" class="nav-item nav-link">Portofolio</a>
+                                        <a href="produk.html" class="nav-item nav-link">Produk</a>
+                     <!-- Dropdown Menu -->
+                                        <div class="nav-item dropdown">
+                                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Repair services</a>
+                                        <div class="dropdown-menu">
+                                        <a href="Perbaikan Laptop.html" class="dropdown-item">Perbaikan Laptop</a>
+                                        <a href="Perbaikan Kamputer.html" class="dropdown-item">Perbaikan Komputer</a>
+                                        <a href="Perbaikan Jaringan.html" class="dropdown-item">Perbaikan Jaringan</a>
+                                        <a href="Update Software.html" class="dropdown-item">Update Software</a>
+                                        </div>
+                                        </div>
+                                        <a href="blog.html" class="nav-item nav-link">Blog</a>
+                                        <a href="contact.html" class="nav-item nav-link">Hubungi Saya</a>
+                                        <a href="https://heriwibowo.id/bootstrap-agency-template" class="btn"><i class="fa fa-download"></i>Download Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!-- Header End -->
+
+
+            <!-- Page Header Start -->
+            <div class="page-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2>Tentang Saya</h2>
+                        </div>
+                        <div class="col-12">
+                            <a href="">Home</a>
+                            <a href="">Tentang Saya</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Page Header End -->
+
+
+            <!-- About Start -->
+<div class="single py-5 bg-light">
+  <div class="container">
+    <!-- Judul -->
+    <div class="row text-center mb-5">
+      <div class="col-12">
+        <h2 class="section-title">Produk & Layanan IT</h2>
+        <p class="text-muted">Temukan solusi digital terbaik sesuai kebutuhan Anda.</p>
+      </div>
+    </div>
+
+    <!-- Search -->
+    <div class="row justify-content-center mb-4">
+      <div class="col-md-6">
+        <input type="text" id="searchInput" class="form-control form-control-lg" placeholder="Cari produk...">
+      </div>
+    </div>
+
+    <!-- Produk Grid -->
+    <div id="productContainer" class="row"></div>
+
+    <!-- Pagination -->
+    <div class="row mt-4">
+      <div class="col text-center">
+        <button id="prevPage" class="btn btn-primary mx-1" disabled>← Sebelumnya</button>
+        <button id="nextPage" class="btn btn-primary mx-1">Berikutnya →</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Produk End -->
+
+<script>
+  // === Daftar Produk ===
+  const products = [
+    { name: "Software Kasir POS", price: "Rp 350.000", img: "img/portfolio-1.jpg", desc: "Aplikasi kasir modern dengan fitur stok dan laporan otomatis." },
+    { name: "Website Company Profile", price: "Rp 1.200.000", img: "img/portfolio-2.jpg", desc: "Website profesional untuk memperkuat kepercayaan bisnis Anda." },
+    { name: "Jasa Pembuatan Aplikasi", price: "Mulai Rp 2.000.000", img: "img/portfolio-3.jpg", desc: "Aplikasi web dan mobile sesuai kebutuhan bisnis Anda." },
+    { name: "Paket Maintenance IT", price: "Rp 500.000 / bulan", img: "img/service-2.PNG", desc: "Perawatan komputer dan jaringan secara rutin." },
+    { name: "Hosting & Domain", price: "Rp 250.000 / tahun", img: "img/service-1.PNG", desc: "Hosting cepat dan domain profesional (.com, .id, dll)." },
+    { name: "Setup Jaringan Kantor", price: "Rp 1.000.000", img: "img/service-2.PNG", desc: "Instalasi jaringan dan konfigurasi WiFi kantor profesional." },
+    { name: "Pembuatan Landing Page", price: "Rp 600.000", img: "img/service-4.PNG", desc: "Landing page elegan untuk promosi produk atau event." },
+    { name: "Aplikasi Inventori Barang", price: "Rp 800.000", img: "img/portfolio-1.jpg", desc: "Kelola stok barang dan laporan inventori dengan mudah." },
+    { name: "Sistem Absensi Online", price: "Rp 1.000.000", img: "img/service-1.PNG", desc: "Pantau kehadiran karyawan dari mana saja dengan sistem absensi online." },
+    { name: "Desain Logo Profesional", price: "Rp 300.000", img: "img/service-2.PNG", desc: "Logo elegan dan berkelas untuk identitas bisnis Anda." }
+  ];
+
+  const perPage = 6;
+  let currentPage = 1;
+
+  const productContainer = document.getElementById("productContainer");
+  const searchInput = document.getElementById("searchInput");
+  const prevPageBtn = document.getElementById("prevPage");
+  const nextPageBtn = document.getElementById("nextPage");
+
+  function renderProducts(page = 1, filter = "") {
+    const start = (page - 1) * perPage;
+    const filtered = products.filter(p => p.name.toLowerCase().includes(filter.toLowerCase()));
+    const paginated = filtered.slice(start, start + perPage);
+    productContainer.innerHTML = "";
+
+    if (paginated.length === 0) {
+      productContainer.innerHTML = `<div class="col text-center text-muted">Produk tidak ditemukan.</div>`;
+      return;
+    }
+
+    paginated.forEach(product => {
+      const productHTML = `
+        <div class="col-md-4 mb-4">
+          <div class="card border-0 shadow-lg produk-card h-100">
+            <img src="${product.img}" class="card-img-top" alt="${product.name}">
+            <div class="card-body text-center">
+              <h5 class="card-title font-weight-bold">${product.name}</h5>
+              <p class="card-text text-muted mb-2">${product.desc}</p>
+              <h6 class="text-primary font-weight-bold mb-3">${product.price}</h6>
+              <a href="https://wa.me/6289637880570?text=Halo%20saya%20tertarik%20dengan%20${encodeURIComponent(product.name)}" target="_blank" class="btn btn-primary btn-sm">
+                <i class="fa fa-whatsapp"></i> Pesan via WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>`;
+      productContainer.insertAdjacentHTML("beforeend", productHTML);
+    });
+
+    prevPageBtn.disabled = page === 1;
+    nextPageBtn.disabled = start + perPage >= filtered.length;
+  }
+
+  // Navigasi Halaman
+  prevPageBtn.addEventListener("click", () => {
+    if (currentPage > 1) {
+      currentPage--;
+      renderProducts(currentPage, searchInput.value);
+    }
+  });
+
+  nextPageBtn.addEventListener("click", () => {
+    const filtered = products.filter(p => p.name.toLowerCase().includes(searchInput.value.toLowerCase()));
+    if (currentPage * perPage < filtered.length) {
+      currentPage++;
+      renderProducts(currentPage, searchInput.value);
+    }
+  });
+
+  // Fitur Pencarian
+  searchInput.addEventListener("input", () => {
+    currentPage = 1;
+    renderProducts(currentPage, searchInput.value);
+  });
+
+  renderProducts();
+</script>
+
+
+
+
+            <!-- Call to Action Start -->
+            <div class="call-to-action">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-9">
+                            <h2>Konsultasi Gratis</h2>
+                            <p>
+                                Butuh Bantuan IT Sekarang ? Hubungi Saya Untuk Solusi terbaik dan Profesional!!
+                            </p>
+                        </div>
+                        <div class="col-md-3">
+                            <a class="btn" href="https://wa.me/6289637880570?text=Halo%20saya%20ingin%20konsultasi%20IT%20,bisa%20saya%20call?%20">Hubungi Saya</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Call to Action End -->
+
+
+            <!-- Footer Start -->
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="footer-about">
+                                <h2>Layanan</h2>
+                                <p>
+                                    Menganalisa dan memecahkan masalah lalu memberikan solusi terbaik untuk permasalahan di Perusahan anda. Layanan IT Support | Konsultan IT | Helpdesk Onsite | Service Laptop & PC | Buat Website | Aplikasi | SEO | Maintenance | Produk IT
+                                </p>
+                                <br>
+                                <p><i class="fa fa-map-marker-alt"></i>Jl. Ranco, No.47A, RT.6/RW.2 Tanjung Barat, Kec.Jagakarsa Kota Jakarta Selatan, Daerah Khusu Ibukota Jakarta 12530, Indonesia</p>
+                                <p><i class="fa fa-phone-alt"></i>62 89637880570</p>
+                                <p><i class="fa fa-envelope"></i>softwareengineer@heriwibowo.id</p>
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="footer-link">
+                                        <h2>Hubungi & Ketahui</h2>
+                                        <a href="">Tentang</a>
+                                        <a href="">Cerita</a>
+                                        <a href="">Layanan</a>
+                                        <a href="">Portofolio</a>
+                                        <a href="">Proyek</a>
+                                        <a href="">Hubungi</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="footer-link">
+                                        <h2>Hubungi & Ketahui</h2>
+                                        <a href="">Klien</a>
+                                        <a href="">Ulasan</a>
+                                        <a href="">Pelanggan Berkelanjutan</a>
+                                        <a href="">Dukungan Pelanggan</a>
+                                        <a href="">FAQs</a>
+                                        <a href="">Site Map</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container copyright">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>&copy; <a href="https://heriwibowo.id">IT Support</a>, All Right Reserved.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p>copyright <a href="https://heriwibowo.id"> by Heri Wibowo</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer End -->
+        </div>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/slick/slick.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+ 
+
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
