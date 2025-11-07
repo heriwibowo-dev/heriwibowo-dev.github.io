@@ -135,14 +135,14 @@
                                         });
 
                                     function labnolThumb(id) {
-                                        var thumb = "https://res.cloudinary.com/deshalnyk/image/upload/v1762523214/Heri_Wibowo_l1olib.png">',
+                                        var thumb = "foto">',
                                             play = '<div class="play"></div>';
                                         return thumb.replace("ID", id) + play;
                                     }
 
                                     function labnolIframe() {
                                         var iframe = document.createElement("iframe");
-                                        var embed = "https://www.youtube.com/embed/ID?autoplay=1";
+                                        var embed = "https://res.cloudinary.com/deshalnyk/image/upload/v1762523214/Heri_Wibowo_l1olib.png";
                                         iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
                                         iframe.setAttribute("frameborder", "0");
                                         iframe.setAttribute("allowfullscreen", "1");
